@@ -1,18 +1,25 @@
 export const ABOUTITEMS=
 [
+   
     {
         id:0,
         name:"OUR MISSION",
         image:"assets/images/mission.jpg",
-        desp:"As much as we love cars, deep down we know it is the reason why there are so many accidents, too much pollution and unbearable traffic jams. But for first mile - last mile connectivity and small distances, electric micro-mobility is the better solution to our commute needs. We want to enable that in as much cities and towns possible, and do our bit to improve the world."
+        desp:"Our top priority is to reduce air and noise pollution and contribute our part in saving mother Earth.To reach every nook and corner of urban areas and provide the public a hassle free ride with lower rates, and reduced waiting time."
     },
     {
     id:1,
     name:"JOIN THE TEAM",
     image:"assets/images/team_.jpg",
-    desp:"Culture is very important at JUM, we are open minded, dogged people ready to charge at issues that needs to be solved.We believe in - Falling in love with the problem and not the solution as the solution can chop and change over time -.",
-    desp2:"If you feel you can contribute to us in any way possible, write to us at : milan@jum.bike or go the Contact us page"
+    desp:" We believe in an organization which is employee centric and has a decentralized power. To work on Customer's problems and provide them solutions.To create  a better environment for all of us to live in.",
+    desp2:"If you feel you can contribute to us in any way possible, write to us at : ebike.jum@gmail.com or go the Contact us page"
 
     
+    },
+    {
+    id:2,
+    name:"OUR VISION",
+    image:"assets/images/team_.jpg",
+    desp:"Our vision is to provide an impressive eco- friendly ride that runs on solar energy and helps combat pollution. An AI lot base micro - mobility system which will reduce transportation cost to an imaginable level and also reduce transportation time.",
     }
 ] 

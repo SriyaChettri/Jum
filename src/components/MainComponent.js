@@ -8,6 +8,7 @@ import Footer from './FooterComponent';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom'
 import { connect } from 'react-redux';
 
+
 const mapStateToProps= state =>{
     return {
       testimonals: state.testimonals,
@@ -18,7 +19,6 @@ class Main extends Component{
 
   constructor(props){
     super(props);
-    
   }
 
  

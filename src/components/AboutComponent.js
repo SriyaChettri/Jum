@@ -40,7 +40,11 @@ const About = (props)=> {
                          <br/>
                          <br/>
                     <h1 style={{color:"#e6ac00"}}><b>About our company</b></h1>
-                    <p>JUM is an ambitious place but a humble one too. If you like solving hard & fundamental problems facing common people and want to solve it at scale using tech, jum.bike is the place to be.</p>
+                    
+                  <p>JUM is an ambitious place but a humble one too. If you like solving hard & fundamental problems facing common people and want to solve it at scale using tech, jum.bike is the place to be.</p>
+                  <div className="container shad "style={{background:"white"}}>
+                    <p>2020 came as a wake up call to all human beings and made us rethink our core values. JUM bike is our brain child which was born as an idea to save environment by reducing carbon emissions and also decrease the financial pressure among public, as people can now enjoy rides whenever they want, without actually owning a  vehicle. The idea was fueled with 4 electrical bikes running in our campus which received an amazing Response.</p>
+                  </div>
                     </div>
                     </div>
                     <div className="row">

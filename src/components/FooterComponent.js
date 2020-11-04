@@ -1,3 +1,5 @@
+
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Form, FormGroup, Input ,Button, Col } from 'reactstrap';
@@ -29,25 +31,27 @@ function Footer(props) {
                 </div>
             <div className="col-12 col-md-4 m-0 "style={{ textAlign:'center'}}>   
              
-                    <h5>Links</h5>
+                    <h5><b>Links</b></h5>
                     <ul className="list-unstyled">
                     <li><Link to='/home'><span className="item">Home</span></Link></li>
-                    <li><Link to='/aboutus'><span className="item">About Us</span></Link></li>
-                    <li><Link to='/faq'><span className="item">FAQ</span></Link></li>
+                    <li><Link to='https://docs.google.com/forms/d/1pwddTogAgISysCbxv5wTfEfhyvnXB-0FULEXXODIQog/viewform?pli=1&edit_requested=true'><span className="item">Lease&Earn</span></Link></li>
                     <li><Link to='/contactus'><span className="item">Contact Us</span></Link></li>
-                    <li><Link to='/earn'><span className="item">Lease&Earn</span></Link></li>
+                    <li><Link to='/aboutus'><span className="item">About Us</span></Link></li>
+                    <li><Link to='/faq'><span className="item">Help</span></Link></li>
+                   
+                    
                 
                     </ul>
                 </div>
                 
                 <div className="col-12 col-sm-4 align-self-center">
                     <div className="text-center">
-                        <a className="btn btn-social-icon btn-google " className="fa1" href="http://google.com/+"><i className="fa fa-google-plus"></i></a>
-                        <a className="btn btn-social-icon btn-facebook" className="fa1" href="http://www.facebook.com/profile.php?id="><i className="fa fa-facebook"></i></a>
-                        <a className="btn btn-social-icon btn-linkedin" className="fa1" href="http://www.linkedin.com/in/"><i className="fa fa-linkedin"></i></a>
-                        <a className="btn btn-social-icon btn-twitter" className="fa1" href="http://twitter.com/"><i className="fa fa-twitter"></i></a>
-                        <a className="btn btn-social-icon btn-google" className="fa1" href="http://youtube.com/"><i className="fa fa-youtube"></i></a>
-                        <a className="btn btn-social-icon" className="fa1" href="mailto:"><i className="fa fa-envelope-o"></i></a>
+                        <h5><b>Follow Us</b></h5>
+                        
+                        <a className="btn btn-social-icon btn-facebook" className="fa1" href="https://www.facebook.com/JUM-BIKE-101002821791536/"><i className="fa fa-facebook"></i></a>
+                        <a className="btn btn-social-icon btn-linkedin" className="fa1" href="https://www.linkedin.com/company/jum-bike"><i className="fa fa-linkedin"></i></a>
+                        <a className="btn btn-social-icon btn-instagram" className="fa1" href="https://www.instagram.com/invites/contact/?i=1nbf2x5bpydlg&utm_content=j3lb2bt"><i className="fa fa-instagram"></i></a>
+                        <a className="btn btn-social-icon" className="fa1" href="mailto: ebike.jum@gmail.com"><i className="fa fa-envelope-o"></i></a>
                     </div>
                 </div>
            
@@ -57,6 +61,7 @@ function Footer(props) {
               <div className="col-12 col-md-12 " style={{ textAlign:'center'}}>
              
                   <p>© Copyright 2020 JumBike</p>
+                  <p>Created by Sriya & Shimran</p>
                   </div>
           </div>
             
