@@ -15,7 +15,7 @@ class Intro extends Component {
   <div className="row">
   <div className="col-12 col-md-3"></div>
   <div className="col-12 col-md-6">
-  <img src="assets/images/Bic.png" className="img-thumbnail "style={{border:"0px",paddingLeft:"50px"}}/>
+  <img src="assets/images/bic.jpg" className="img-thumbnail "style={{border:"0px",paddingLeft:"50px"}}/>
   </div>
   <div className="col-12 col-md-3"></div>
 </div>

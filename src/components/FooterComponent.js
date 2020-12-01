@@ -13,7 +13,7 @@ function Footer(props) {
             <div className=" row ">
                 <div className="col-12 col-md-4 m-0">
                     <p><strong>Subscribe to our newsletter for offers, discounts & more..!</strong></p>
-                    <Form>
+                    <Form action="connect.php" method="post">
                     <FormGroup row>
                                 <Col md={8}>
                                     <Input type="text" id="name" name="name" placeholder="Name" />

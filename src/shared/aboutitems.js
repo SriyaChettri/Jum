@@ -19,7 +19,7 @@ export const ABOUTITEMS=
     {
     id:2,
     name:"OUR VISION",
-    image:"assets/images/team_.jpg",
+    image:"assets/images/vision.jpg",
     desp:"Our vision is to provide an impressive eco- friendly ride that runs on solar energy and helps combat pollution. An AI lot base micro - mobility system which will reduce transportation cost to an imaginable level and also reduce transportation time.",
     }
 ] 
